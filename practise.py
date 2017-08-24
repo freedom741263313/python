@@ -1,3 +1,35 @@
+from datetime import datetime
+
+# class Student(object):
+#   # __slots__限制可以绑定到实例的属性，但是只对当前实例起作用，对继承的子类不起作用
+#   __slots__ = ('name', 'age')
+
+
+# s = Student()
+# s.age = 12
+
+# print(s.age)
+
+# 装饰器
+# def log(func):
+#   @functools.wraps(func)
+#   def wrapper(*args, **kw):
+#     return func(*args, **kw)
+#   return wrapper
+
+
+# @log
+# def now():
+#   print('2017-08-22')
+
+
+# now()
+
+now = datetime.now()
+
+print(now)
+
+
 class practise(object):
     """docstring for practise"""
 
